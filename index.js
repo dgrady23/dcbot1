@@ -21,7 +21,10 @@ client.on('interactionCreate', async interaction => {
 		await interaction.reply('Server info.');
 	} else if (commandName === 'user') {
 		await interaction.reply('User info.');
+	} else if (commandName === 'hello'){
+		await interaction.reply('howdy')
 	}
+	
 });
 // Login to Discord with your client's token
 

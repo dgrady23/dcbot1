@@ -22,7 +22,7 @@ client.on('interactionCreate', async interaction => {
 	} else if (commandName === 'user') {
 		await interaction.reply('User info.');
 	} else if (commandName === 'hello'){
-		await interaction.reply('howdy')
+		await interaction.reply('howdy!')
 	}
 	
 });
